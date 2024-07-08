@@ -1,0 +1,109 @@
+
+
+h1 { color: red; }
+h2 { color: #000000; }
+p { color: blue; }
+
+
+
+
+ul, ol {
+  color: #668ad8;/*文字色*/
+  border: dashed 2px #668ad8;/*破線 太さ 色*/
+  background: #f1f8ff; /*背景色*/
+  padding: 0.5em 0.5em 0.5em 2em;
+}
+
+ul li, ol li {
+  line-height: 1.5;
+  padding: 0.5em 0;
+}
+
+
+h1 {
+  color: #6594e0;/*文字色*/
+  /*線の種類（点線）2px 線色*/
+  border-bottom: dashed 2px #6594e0;
+}
+
+
+
+h2 {
+  border-bottom: 3px dashed #000;
+}
+
+
+
+
+.bg_pattern {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffe9a7;
+  opacity: 0.4;
+  z-index: -1;
+}
+.Lines_v4 {
+  background-size: 40px 40px;
+  background-image:  repeating-linear-gradient(to right, #ffc107, #ffc107 2px, #ffe9a7 2px, #ffe9a7);
+}
+
+
+.hello {
+color: red;
+}
+.sheep {
+background: linear-gradient(to right,#38a092,#fdbf3b);
+}
+
+
+
+#anime {
+color: #90D7EC;
+}
+#jreast {
+color: #008803;
+}
+#tesuto {
+color: rgb(155,155,230);
+}
+
+
+
+
+
+
+
+.img-border{
+  padding:0 !important;
+}
+.img-border img{
+  border:5px solid #fff352;
+}
+
+
+
+
+
+
+.menu {
+background: #01558d;
+color: white;
+padding: 5px 10px;
+cursor: pointer;
+}
+.accordion ul {
+margin: 0;
+background: #e7e7e7;
+max-height: 0;
+overflow: hidden;
+transition: all .5s;
+}
+.accordion.open ul {
+max-height: 300000px;
+}
+.accordion li {
+padding: 5px 10px;
+}
